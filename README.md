@@ -12,7 +12,7 @@
 **frshls** | `[path] [#N]` | List the `#N` newest files in directory `path` (default values:`#N=1`,`path=./`)
 **frshmv** | `[path] [#N]` | Move the `#N` newest files in directory `path` to the current directory
 **frshcp** | `[path] [#N]` | Copy the `#N` newest files in directory `path` to the current directory
-**xss** | `[path|file]` | Open the file or directory selected (default values:`path=./`)
+**xss** | `[path,file]` | Open the file or directory selected (default values:`path=./`)
 **set_workdir** | `[path]` | Declare the bash alias `wknow` as `cd path` (default values:`path=./`)
 
 
@@ -22,7 +22,7 @@
 :------------- |:-------------:| ----------------
 **cls** | | Clear the terminal screen
 **sl** | | List directory contents `ls`
-**clipbar** | | Copy from the STDIN to your clipboard (use cases:`netstat -tulpn | clipbar` OR `clipbar <<EOF\n blah \nEOF`)
+**clipbar** | | Copy from the STDIN to your clipboard (use cases:`netstat -tulpn \| clipbar` OR `clipbar <<EOF\n blah \nEOF`)
 **gtfo** | `[pid]` | Kill the process `pid` by sending a SIGSEGV signal
 
 

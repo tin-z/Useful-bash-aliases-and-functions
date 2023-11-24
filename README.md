@@ -24,6 +24,9 @@
 **sl** | | List directory contents `ls`
 **clipbar** | | Copy from the STDIN to your clipboard (use cases:`netstat -tulpn \| clipbar` OR `clipbar <<EOF\n blah \nEOF`)
 **gtfo** | `[pid]` | Kill the process `pid` by sending a SIGSEGV signal
+**history_uniq** | | List commands from the bash history without duplicates
+**history_uniqless** | | Print history_uniq's output with 'less'
+
 
 
 ### Editors ###

@@ -16,6 +16,9 @@ alias cls="clear"
 alias sl='ls'
 alias clipbar="xclip -selection clipboard"
 alias gtfo='kill -11 "$1"'
+alias history_uniq="history | sed -e 's/[ ]*[0-9]*[ ]*\(.*\)/\1/g' | sort -h | uniq | cut -d' ' -f 1 | sort -h | uniq"
+alias history_uniqless="history_uniq | less"
+
 
 ### Editors ###
 export MYVIMRC="~/.vimrc"

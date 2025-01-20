@@ -34,6 +34,6 @@ alias cscope_Clean='rm cscope.in.out cscope.po.out cscope.files cscope.out'
 #now launch: cscope -d
 
 # prompt settings
-T1PROMPT="\[\e]0;\[\033[01;31m\]\___[\[\033[01;34m\]\W\[\033[01;31m\]]\[\033[00m\]\$ "
+T1PROMPT="\[\e]0;your-terminal-name\a\]\[\033[01;31m\]\___[\[\033[01;34m\]\W\[\033[01;31m\]]\[\033[00m\]\$ "
 export PS1=$T1PROMPT
 
